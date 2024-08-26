@@ -29,8 +29,20 @@ else
 var friendlyWelcome = "bonjur"
 
 print(friendlyWelcome)
-print(friendlyWelcome)
-print(friendlyWelcome)
-print(friendlyWelcome)
 
+let randomMath = (8 * 8)
 
+let someString = "some string value"  //"    " is just single line string
+
+let quotation = """
+erser
+sedr
+sdfs
+"""      // """     """ is a multiline
+
+let quote = """
+sdoifjslkdfjlk \
+
+skdjfhsjdfhsjdhf \
+thfdfg
+"""  // \ is for line breaks inside a multiline string literal
