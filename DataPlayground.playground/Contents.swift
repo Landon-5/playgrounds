@@ -8,6 +8,11 @@ func generateRandomEmoji(of emojiType : String) -> String
     let start : Int
     let range : Int
     
+    if (emojiType == "face")
+    {
+        start = 0x1f601
+        range = 79
+    }
     
     
     return defaultEmoji
