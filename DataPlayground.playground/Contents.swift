@@ -42,15 +42,15 @@ func randomString() -> String
 {
     let choice = arc4random()
     
-    if (choice % 3 == 0)
+    if (choice % 4 == 0)
     {
         return "face"
     }
-    else if (choice % 5 == 0)
+    else if (choice % 4 == 1)
     {
         return "mine"
     }
-    else if (choice % 7 == 0)
+    else if (choice % 4 == 2)
     {
         return ""
     }
