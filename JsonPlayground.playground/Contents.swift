@@ -28,3 +28,12 @@ let demo = """
     }
 ]
 """.data(using: .utf8)!
+
+struct BucketListItem : Codable, Identifiable
+{
+    var id = UUID()
+    var year : Int
+    var goal : String
+    var creature : String
+}
+
