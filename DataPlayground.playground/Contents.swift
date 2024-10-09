@@ -24,6 +24,8 @@ func generateRandomEmoji(of emojiType : String) -> String
         range = 52
     }
     
+    let unicodeValue = start + Int(arc4random_uniform(UInt32(range)))
+    let currentEmoji = UnicodeScalar(unicodeValue)?.description ?? defaultEmoji
     
     return defaultEmoji
 }
