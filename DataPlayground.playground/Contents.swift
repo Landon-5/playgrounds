@@ -4,7 +4,7 @@ var greeting = "Hello, playground"
 
 func generateRandomEmoji(of emojiType : String) -> String
 {
-    let defaultEmoji = ""
+    let defaultEmoji = "🗣️"
     
     return defaultEmoji
 }
