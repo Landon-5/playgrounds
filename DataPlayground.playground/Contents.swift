@@ -37,3 +37,17 @@ func generateRandomEmoji(of emojiType : String) -> String
 }
 
 generateRandomEmoji(of: "mine")
+
+func randomString() -> String
+{
+    let choice = arc4random()
+    
+    if (choice % 3 == 0)
+    {
+        return "face"
+    }
+    else
+    {
+        return "symbol"
+    }
+}
