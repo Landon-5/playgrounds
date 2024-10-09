@@ -18,6 +18,12 @@ func generateRandomEmoji(of emojiType : String) -> String
         start = 0x1F680
         range = 70
     }
+    // my else if now
+    else if (emojiType == "mine")
+    {
+        start = 0x1F4AB
+        range = 22
+    }
     else
     {
         start = 0x1F400
@@ -29,3 +35,5 @@ func generateRandomEmoji(of emojiType : String) -> String
     
     return currentEmoji
 }
+
+generateRandomEmoji(of: "mine")
