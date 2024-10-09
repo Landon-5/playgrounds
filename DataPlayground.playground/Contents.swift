@@ -10,8 +10,18 @@ func generateRandomEmoji(of emojiType : String) -> String
     
     if (emojiType == "face")
     {
-        start = 0x1f601
+        start = 0x1F601
         range = 79
+    }
+    else if (emojiType == "symbol")
+    {
+        start = 0x1F680
+        range = 70
+    }
+    else
+    {
+        start = 0x1F400
+        range = 52
     }
     
     
