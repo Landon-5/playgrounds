@@ -46,8 +46,17 @@ func randomString() -> String
     {
         return "face"
     }
+    else if (choice % 5 == 0)
+    {
+        return "mine"
+    }
+    else if (choice % 7 == 0)
+    {
+        return ""
+    }
     else
     {
         return "symbol"
     }
 }
+generateRandomEmoji(of: randomString())
