@@ -37,3 +37,9 @@ struct BucketListItem : Codable, Identifiable
     var creature : String
 }
 
+let decoder = JSONDecoder()
+let products = try decoder.decode([BucketListItem].self, from: demo)
+
+print (products[0].creature)
+print (products[1].id)
+print (products[3].goal)
