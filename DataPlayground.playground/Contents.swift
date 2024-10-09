@@ -59,4 +59,8 @@ func randomString() -> String
         return "symbol"
     }
 }
-generateRandomEmoji(of: randomString())
+
+for index in 0...10
+{
+    print(generateRandomEmoji(of: randomString()))
+}
